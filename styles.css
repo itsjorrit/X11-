@@ -1,0 +1,24 @@
+
+	/* Disable ugly boxes around images in IE10 */
+	a img{
+	  border: 0px;
+	}
+
+.mdl-menu	{
+	background-color: #00BCD4;
+}
+.android-header .mdl-menu__container {
+  z-index: 50;
+  margin: 0 !important;
+}
+
+.android-mobile-title {
+	display: none !important;
+}
+
+.android-link-menu:hover {
+  cursor: pointer;
+}
+.android-header {
+	background-color: #212121;
+}
